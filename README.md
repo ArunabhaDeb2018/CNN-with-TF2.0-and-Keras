@@ -4,12 +4,13 @@ As a beginner in Deep Learning and CNN , I tried to use the Google Colab to expe
 I have started with a simple CNN model ,then progressed to transfer learning with VGG net, then moved on to building a resnet50 network from scratch(using TF2.0 & keras API), implemented the mobilenet version 1. Hope this could help a beginner in CNN and motivate him/her to experiment with various CNN architectures.
 
 The code includes:
+
 1.TF2_0_Cifar10.ipynb - an example for usage of keras functional apis for implementing a CNN model.
 
 2.TF2_0_TransferLearningVGG16_1.ipynb - the convolutional blocks(excluding the Dense layers) of VGG16 have been used for getting the features from the dataset,
 those features have been used as the input feature for the custom Dense layer. Its an example of using VGG16 for transfer learning.
 
-3. TF2_0_TransferLearningVGG16_2.ipynb - In this code I freeze all the conv blocks of VGG16( usual approach for transfer learning), and only train the custom Dense layers.
+3.TF2_0_TransferLearningVGG16_2.ipynb - In this code I freeze all the conv blocks of VGG16( usual approach for transfer learning), and only train the custom Dense layers.
 
 4.TF2_0_TransferLearningVGG16_3.ipynb -In this code I freeze all the conv layers of VGG16 except the last conv layer. Last conv layer of VGG16 gets trained along with the custom Dense layer. 
 
